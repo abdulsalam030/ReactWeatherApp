@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'monospace', sans-serif;
+}
+
+.App {
+  background-image: url('./Images/mountain1.jpg');
+  background-size: contain;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+  min-height: 100vh;
+  padding: 25px;
+}
+
+
+.search-box{
+  width: 100px;
+  margin: 0 auto 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 300px;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+ background-color: white;
+  margin-top: -25px;
+  border-radius: 0px 0px 16px 16px;
+  color: #313131;
+  font-size: 20px;
+  margin-left: -105px;
+}
+.search-bax .search-bor:focus {
+  background-color:rgba(255, 255, 255, 0.75);
+}
+
+.content-box .content {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+
+}
+
+.content-box .date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: initial;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255,255, 0.2);
+  border-radius: 16px;
+  padding: 15px 55px;
+  color: white;
+  font-size: 102px;
+  text-shadow: 3px 6px rgba(50, 50, 50, 0.7) ;
+  text-align: center;
+  box-shadow: 3px 6px rgb(0, 0, 0, 0.2);
+
+
+}
+
+.weather-box .weather {
+  color: #fff;
+  font-size:48px;
+  font-weight:700;
+  box-shadow: 3px 4px rgb(0, 0, 0, 0.5);
+}
+
